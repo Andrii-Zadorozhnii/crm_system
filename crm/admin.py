@@ -1,26 +1,25 @@
 from django.contrib import admin
 from .models import Clients, Tasks, Deals
 
-# admin.site.register(Clients)
 
 @admin.register(Clients)
-class ClientsAdmin(admin.ModelAdmin):
+class ClientAdmin(admin.ModelAdmin):
     list_display = ('name', 'email', 'phone','company')
     search_fields = ('name', 'email', 'phone','company')
     list_filter = ('company',)
 
 
 @admin.register(Deals)
-class DealsAdmin(admin.ModelAdmin):
+class DealAdmin(admin.ModelAdmin):
     list_display = ('name','price', 'status', 'client')
     search_fields = ('name','price', 'status', 'client__name')
-    list_filter = ('company',)
+    list_filter = ('client',)
 
 
 @admin.register(Tasks)
-class TasksAdmin(admin.ModelAdmin):
+class TaskAdmin(admin.ModelAdmin):
     list_display = ('description', 'deadline', 'comleted', 'client')
     search_fields = ('description', 'client__name')
-    list_filter = ('comleted',)
+    list_filter = ('deadline','client')
 
 

@@ -1,5 +1,6 @@
 from django import forms
-from .models import Clients
+from .models import Clients, Deals
+
 
 class ClientForm(forms.ModelForm):
     class Meta:
@@ -9,4 +10,14 @@ class ClientForm(forms.ModelForm):
             'email',
             'phone',
             'company'
+        ]
+
+class DealsForm(forms.ModelForm):
+    class Meta:
+        model: Deals
+        field = [
+            'name',
+            'price',
+            'status',
+            'client'
         ]
