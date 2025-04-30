@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="386a64d7-69b7-4a95-bab6-a9905cb1e197" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/templates/crm/add_client.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/templates/crm/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/templates/crm/client_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/crm_system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/crm_system.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm_system/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/crm_system/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm_system/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/crm_system/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="386a64d7-69b7-4a95-bab6-a9905cb1e197" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1746013397059</updated>
-      <workItem from="1746013402131" duration="3824000" />
+      <workItem from="1746013402131" duration="4195000" />
     </task>
     <servers />
   </component>
